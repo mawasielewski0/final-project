@@ -16,7 +16,6 @@ const createFavoritesRouter = require('./routes/favorites');
 
 async function connectDB() {
   await dbClient.connect();
-  console.log('Connected to MongoDB');
 }
 
 connectDB().then(() => {
@@ -57,8 +56,5 @@ connectDB().then(() => {
   app.use((req, res) => {
     res.status(404).send('Page not found');
   });
-
-  console.log('Server ready. API key loaded:', process.env.API_KEY);
-
   app.listen(PORT, () => console.log(`Server running on http://localhost:${PORT}`));
 });

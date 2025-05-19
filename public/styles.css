@@ -50,9 +50,9 @@ form input[type="text"] {
   padding: 0.6rem 1rem;
   font-size: 1rem;
   border: 1px solid #ccc;
-  border-radius: 4px;
-  flex: 1 1 300px;
-  max-width: 400px;
+  border-radius: 8px;
+  flex: 2 2 500px;
+  max-width: 800px;
 }
 
 form button {
@@ -93,7 +93,7 @@ tr:hover {
   margin: 15px;
   margin-top: -82px;
   margin-bottom: 34px;
-  margin-left: 500px;
+  margin-left: 700px;
   padding: 0.6rem 1.2rem;
   font-size: 1rem;
   background-color: #333;
@@ -136,10 +136,14 @@ tr:hover {
 
 .optionbox1{
   background-image: url(71tV2YTXJLL.png);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .optionbox2{
-  background-image: url(100.png);
-  background-size: contain;
+  background-image: url(mj.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
